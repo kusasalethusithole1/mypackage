@@ -25,3 +25,7 @@ def top_n(items, n):
     
     # Return in descending order
     return top_n[::-1]
+
+
+def another_func(items, n):
+    print(top_n(items, n))
